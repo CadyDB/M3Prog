@@ -1,6 +1,6 @@
 using UnityEngine;
 using System.Collections;
-
+using UnityEngine.UI;
 public class Player : MonoBehaviour
 {
     public int health = 100;
@@ -9,6 +9,7 @@ public class Player : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
+    public Image healthImage;
 
     private Rigidbody2D rb;
     private bool isGrounded;
@@ -51,6 +52,8 @@ public class Player : MonoBehaviour
         }
 
         SetAnimation(moveInput);
+        //spriteRenderer.flipX = (transform.position.x) < 0f;
+        healthImage.fillAmount = health / 100f;
     }
 
     private void FixedUpdate()
