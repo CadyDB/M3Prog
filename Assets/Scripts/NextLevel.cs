@@ -2,15 +2,10 @@ using UnityEngine;
 
 public class NextLevel : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public string nextLevelName;
+    public void LoadNextLevel()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        UnityEngine.SceneManagement.SceneManager.LoadScene(nextLevelName);
+        Time.timeScale = 1;
     }
 }
