@@ -112,6 +112,8 @@ public class Player : MonoBehaviour
 
     private void Die()
     {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("GameScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene(UnityEngine.SceneManagement.SceneManager.GetActiveScene().name);
     }
+
+
 }
