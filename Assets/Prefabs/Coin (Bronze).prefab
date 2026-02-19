@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 214771971045081811}
   - component: {fileID: 2233106701830766229}
   - component: {fileID: 6239633776775757507}
+  - component: {fileID: 7305687368628956673}
   m_Layer: 0
   m_Name: Coin (Bronze)
   m_TagString: Untagged
@@ -160,3 +161,15 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.518301, y: 0.518301}
   m_EdgeRadius: 0
+--- !u!114 &7305687368628956673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5785514653522902465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23b3f57eab579a146b6a65b1ed269128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Coin
