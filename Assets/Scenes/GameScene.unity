@@ -119,23 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &194959183 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 558959687999298212, guid: b7d6c87febe00404b8e633c3b6b38347, type: 3}
-  m_PrefabInstance: {fileID: 7396238993441665776}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &194959184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 194959183}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23b3f57eab579a146b6a65b1ed269128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &311649315
 GameObject:
   m_ObjectHideFlags: 0
@@ -812,7 +795,7 @@ MonoBehaviour:
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 0
-  m_FillAmount: 1
+  m_FillAmount: 0.609
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -3833,23 +3816,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &1585555915 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5785514653522902465, guid: a5d71075a0ef42c4199eced5129368b9, type: 3}
-  m_PrefabInstance: {fileID: 2168233453507724726}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1585555916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1585555915}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23b3f57eab579a146b6a65b1ed269128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Coin
 --- !u!1 &1682382393
 GameObject:
   m_ObjectHideFlags: 0
@@ -4231,10 +4197,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5785514653522902465, guid: a5d71075a0ef42c4199eced5129368b9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1585555916}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5d71075a0ef42c4199eced5129368b9, type: 3}
 --- !u!1001 &4921514084479838376
 PrefabInstance:
@@ -4470,10 +4433,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 558959687999298212, guid: b7d6c87febe00404b8e633c3b6b38347, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 194959184}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7d6c87febe00404b8e633c3b6b38347, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
