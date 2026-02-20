@@ -25,3 +25,7 @@ De coins hebben allemaal een animatie en geven een oplopende score.
 ![gif6](Gifs/Finish%20screen.gif)
 
 De finish werkt. De Next Level button is nog een work in progress, maar het level herstarten doet het prima.
+
+![gif7](Gifs/Levels.gif)
+
+Ik heb een test playthrough gedaan door de levels. 4 levels totaal. Ik ga nog een menu maken waarbij je levels kan kiezen.
