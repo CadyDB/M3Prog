@@ -29,3 +29,6 @@ De finish werkt. De Next Level button is nog een work in progress, maar het leve
 ![gif7](Gifs/Levels.gif)
 
 Ik heb een test playthrough gedaan door de levels. 4 levels totaal. Ik ga nog een menu maken waarbij je levels kan kiezen.
+
+## Version 1.0.0
+De platformer doet het als het goed is prima. Er zijn nog dingen waarmee ik bezig ben, maar dat komt in the volgende update.
